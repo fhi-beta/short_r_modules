@@ -1,6 +1,8 @@
-# Documentation 
+# Manual Actions
 
-## Sykdomspulsen Weekly update
+## Sykdomspulsen
+
+### Sykdomspulsen Weekly update
 
 The weekly update needs to be done every Tuesday morning. 
 New data has arrived from Helsedirektoratet to FHI during Monday evening and night, and the further statistical analysis and updating of the interactive webpage for Sykdomspulsen is done on Tuesday. 
