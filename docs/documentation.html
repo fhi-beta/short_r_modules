@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
+<link rel="prev" href="contributing.html">
 
-<link rel="next" href="introduction.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -126,28 +126,49 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Dashboards project</h1>
-<h4 class="author"><em>Richard White</em></h4>
-<h4 class="date"><em>2018-11-13</em></h4>
-</div>
-<div id="preface" class="section level1 unnumbered">
-<h1>Preface</h1>
-<p>The dashboards project is a project at FHI concerned with running automated analyses on data. An automated analysis is any analysis that:</p>
+<div id="documentation" class="section level1">
+<h1><span class="header-section-number">6</span> Documentation</h1>
+<div id="sykdomspulsen-weekly-update" class="section level2">
+<h2><span class="header-section-number">6.1</span> Sykdomspulsen Weekly update</h2>
+<p>The weekly update needs to be done every Tuesday morning. New data has arrived from Helsedirektoratet to FHI during Monday evening and night, and the further statistical analysis and updating of the interactive webpage for Sykdomspulsen is done on Tuesday. For more information about Sykdomspulsen setup:</p>
+<p><a href="https://folkehelseinstituttet.github.io/dashboards/" class="uri">https://folkehelseinstituttet.github.io/dashboards/</a></p>
+<p><a href="https://folkehelseinstituttet.github.io/dashboards_sykdomspuls/" class="uri">https://folkehelseinstituttet.github.io/dashboards_sykdomspuls/</a></p>
 <ol style="list-style-type: decimal">
-<li>Will be repeated multiple times in the future</li>
-<li>Always has an input dataset with consistent file structure</li>
-<li>Always has the same expected output (e.g. tables, graphs, reports)</li>
+<li>Log in to «Sikker sone»</li>
+<li>Click on «Sikkersone statistikk»</li>
+<li>Open R or R studio by clicking on the four squares in the bottom left corner, then on the arrow pointing downwards approximately in the same area and search for R in the upper right corner</li>
+<li>When R is open, click on “file” in the upper left corner, and then “open script”</li>
+<li>Open G:/Helseregistre/MSIS/Sykdomspulsen/Gry/FormattingWithinSikkersone/<br />
+SykdomspulsenWeeklyReport</li>
+<li>Slide the R-code so that it is beside the R console (so that you can see the whole R console)</li>
+<li>Put the marker within the R-code and click Ctrl+A, then click Ctrl+R</li>
+<li>After a few minutes, you will see a progress bar on the R-console, which shows how much of the code is finished. When the bar shows 100%, the whole code has run, and the results are finished (this takes about 1 hour, you can do other things while waiting for this)</li>
+<li>When the progress bar shows 100% you should look at the data that is shown in the console and see if the dates are from this week. If not you should contact the IT department by Cathrine Slorbak (<a href="mailto:Cathrine.Slorbak@fhi.no">Cathrine.Slorbak@fhi.no</a>) and Gry Grøneng (<a href="mailto:GryMarysol.Groneng@fhi.no">GryMarysol.Groneng@fhi.no</a>). There is probably something wrong with receiving the data from the Health directorate, hence the IT department needs to solve it. Do not continue until the problem is solved.</li>
+<li>If the dates look ok, you can close R (by clicking on x in the upper right corner).</li>
+<li>Go to “Windows explorer” by clicking on the four squares in the lower left corner (still in “sikker sone”), and go to: G:/Helseregistre/MSIS/Sykdomspulsen/Gry/<br />
+FormattingWithinSikkersone, and find a text file which is called “partially_formatted_<br />
+todays date.txt” (todays date is displayed 2017_06_13). You should look if the file is larger than last weeks file, it should be larger since we take out all the data every week, and more days have been added since last week. If the file is smaller than last week, contact the IT department by Cathrine Slorbak (<a href="mailto:Cathrine.Slorbak@fhi.no">Cathrine.Slorbak@fhi.no</a>) and Gry Grøneng (<a href="mailto:GryMarysol.Groneng@fhi.no">GryMarysol.Groneng@fhi.no</a>). Do not continue until the problem is solved.</li>
+<li>Copy and paste the file into the folder “Filer til ordinær sone (J:)”</li>
+<li>Log out of “sikker sone” and open the windows explorer in the ordinary zone and go to “Filer overført fra sikker sone (K:)” and find the file.</li>
+<li>Copy and paste the file into:</li>
+</ol>
+<ul>
+<li>F:/Prosjekter/sMSIS/WeeklyUpdates_Sykdomspulsen AND</li>
+<li>F:/Prosjekter/Dashboards/data_raw/sykdomspuls</li>
+</ul>
+<ol start="15" style="list-style-type: decimal">
+<li>You have now done the weekly update of Sykdomspulsen!</li>
 </ol>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
+<a href="contributing.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="introduction.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
