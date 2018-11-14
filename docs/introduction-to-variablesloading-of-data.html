@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Short R modules</title>
+  <meta name="description" content="A guide to authoring books with R Markdown, including how to generate figures and tables, and insert cross-references, citations, HTML widgets, and Shiny apps in R Markdown. The book can be exported to HTML, PDF, and e-books (e.g. EPUB). The book style is customizable. You can easily write and preview the book in RStudio IDE or other editors, and host the book wherever you want (e.g. bookdown.org).">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Short R modules" />
+  <meta property="og:type" content="book" />
+  <meta property="og:url" content="https://folkehelseinstituttet.github.io/dashboards/" />
+  <meta property="og:image" content="https://folkehelseinstituttet.github.io/dashboards/images/fhi.svg" />
+  <meta property="og:description" content="A guide to authoring books with R Markdown, including how to generate figures and tables, and insert cross-references, citations, HTML widgets, and Shiny apps in R Markdown. The book can be exported to HTML, PDF, and e-books (e.g. EPUB). The book style is customizable. You can easily write and preview the book in RStudio IDE or other editors, and host the book wherever you want (e.g. bookdown.org)." />
+  <meta name="github-repo" content="folkehelseinstituttet/dashboards" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Short R modules" />
+  
+  <meta name="twitter:description" content="A guide to authoring books with R Markdown, including how to generate figures and tables, and insert cross-references, citations, HTML widgets, and Shiny apps in R Markdown. The book can be exported to HTML, PDF, and e-books (e.g. EPUB). The book style is customizable. You can easily write and preview the book in RStudio IDE or other editors, and host the book wherever you want (e.g. bookdown.org)." />
+  <meta name="twitter:image" content="https://folkehelseinstituttet.github.io/dashboards/images/fhi.svg" />
+
+<meta name="author" content="Richard White, Beatriz Valcarcel and Gry Marysol Grøneng">
+
+
+<meta name="date" content="2018-11-14">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="introduction-to-r.html">
+<link rel="next" href="if-statement.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Dashboards</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="introduction-to-r.html"><a href="introduction-to-r.html"><i class="fa fa-check"></i><b>1</b> Introduction to R</a></li>
+<li class="chapter" data-level="2" data-path="introduction-to-variablesloading-of-data.html"><a href="introduction-to-variablesloading-of-data.html"><i class="fa fa-check"></i><b>2</b> Introduction to variables/loading of data</a><ul>
+<li class="chapter" data-level="2.1" data-path="introduction-to-variablesloading-of-data.html"><a href="introduction-to-variablesloading-of-data.html#data-structures"><i class="fa fa-check"></i><b>2.1</b> Data structures</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction-to-variablesloading-of-data.html"><a href="introduction-to-variablesloading-of-data.html#reading-and-writing-data-files"><i class="fa fa-check"></i><b>2.2</b> Reading and writing data files</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction-to-variablesloading-of-data.html"><a href="introduction-to-variablesloading-of-data.html#data-classes"><i class="fa fa-check"></i><b>2.3</b> Data Classes</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="if-statement.html"><a href="if-statement.html"><i class="fa fa-check"></i><b>3</b> If-statement</a></li>
+<li class="chapter" data-level="4" data-path="loops.html"><a href="loops.html"><i class="fa fa-check"></i><b>4</b> Loops</a></li>
+<li class="chapter" data-level="5" data-path="functions-i.html"><a href="functions-i.html"><i class="fa fa-check"></i><b>5</b> Functions I</a></li>
+<li class="chapter" data-level="6" data-path="functions-ii.html"><a href="functions-ii.html"><i class="fa fa-check"></i><b>6</b> Functions II</a></li>
+<li class="divider"></li>
+<li><a href="https://www.fhi.no/" target="blank">www.fhi.no</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Short R modules</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="introduction-to-variablesloading-of-data" class="section level1">
+<h1><span class="header-section-number">2</span> Introduction to variables/loading of data</h1>
+<p><strong>Date:</strong> 24-01-2019</p>
+<p><strong>Location:</strong> To be confirmed</p>
+<p><strong>Teacher:</strong> <a href="mailto:Beatriz.ValcarcelSalamanca@fhi.no">Beatriz.ValcarcelSalamanca@fhi.no</a></p>
+<div id="data-structures" class="section level2">
+<h2><span class="header-section-number">2.1</span> Data structures</h2>
+<ul>
+<li>Scalar</li>
+<li>Vectors</li>
+<li>Matrices</li>
+<li>Data frames</li>
+<li>Lists</li>
+</ul>
+</div>
+<div id="reading-and-writing-data-files" class="section level2">
+<h2><span class="header-section-number">2.2</span> Reading and writing data files</h2>
+</div>
+<div id="data-classes" class="section level2">
+<h2><span class="header-section-number">2.3</span> Data Classes</h2>
+<ul>
+<li>Numeric</li>
+<li>Characters</li>
+<li>Dates</li>
+<li>Logical</li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction-to-r.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="if-statement.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": ["website.pdf", "website.epub"],
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
