@@ -20,6 +20,9 @@ cover-image: images/fhi.svg
 
 # Introduction to R
 
-**Date:** 17-01-2019
+**Date:** 17-01-2019  
+
+**Location:** To be confirmed  
 
 **Teacher:** GryMarysol.Groneng@fhi.no
+

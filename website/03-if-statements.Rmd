@@ -1,5 +1,7 @@
-# If statements
+# If-statement
 
-**Date:** 31-01-2019
+**Date:** 31-01-2019  
+
+**Location:** To be confirmed  
 
 **Teacher:** RichardAubrey.White@fhi.no
