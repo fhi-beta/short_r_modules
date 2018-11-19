@@ -1,5 +1,5 @@
 [
-["index.html", "Short R modules Preface", " Short R modules Richard White, Beatriz Valcarcel and Gry Marysol Grøneng 2018-11-14 Preface "],
+["index.html", "Short R modules Preface", " Short R modules Richard White, Beatriz Valcarcel and Gry Marysol Grøneng 2018-11-19 Preface "],
 ["introduction-to-r.html", "1 Introduction to R", " 1 Introduction to R Date: 17-01-2019 Location: To be confirmed Teacher: GryMarysol.Groneng@fhi.no "],
 ["introduction-to-variablesloading-of-data.html", "2 Introduction to variables/loading of data 2.1 Data structures 2.2 Reading and writing data files 2.3 Data Classes", " 2 Introduction to variables/loading of data Date: 24-01-2019 Location: To be confirmed Teacher: Beatriz.ValcarcelSalamanca@fhi.no 2.1 Data structures Scalar Vectors Matrices Data frames Lists 2.2 Reading and writing data files 2.3 Data Classes Numeric Characters Dates Logical "],
 ["if-statement.html", "3 If-statement", " 3 If-statement Date: 31-01-2019 Location: To be confirmed Teacher: RichardAubrey.White@fhi.no "],
