@@ -1,0 +1,23 @@
+# Introduction to variables/loading of data
+
+**Date:** 24-01-2019 
+
+**Location:** To be confirmed  
+
+**Teacher:** Beatriz.ValcarcelSalamanca@fhi.no  
+
+
+## Data structures
++ Scalar
++ Vectors
++ Matrices
++ Data frames
++ Lists
+
+## Reading and writing data files
+
+## Data Classes 
++ Numeric
++ Characters
++ Dates
++ Logical

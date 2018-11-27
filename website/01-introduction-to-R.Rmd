@@ -17,5 +17,12 @@ github-repo: folkehelseinstituttet/dashboards
 cover-image: images/fhi.svg
 ---
 
-# Preface {-}
+
+# Introduction to R
+
+**Date:** 17-01-2019  
+
+**Location:** To be confirmed  
+
+**Teacher:** GryMarysol.Groneng@fhi.no
 
